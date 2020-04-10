@@ -98,6 +98,20 @@ value: 用于解析更新内容的xml地址
 <enclosure url="http://0.0.0.0:8000/Update.app.zip" sparkle:version="2.0" length="4945096" type="application/octet-stream" sparkle:edSignature="8jomTVaWC7p3rxgNW8xXlRK2oe4eyFQiJ9+oknCIoKrH8+sF7jy2xQ+Mx37F00WenDBuOIy2ymD3nTQuQkyOCw==" />
 ```
 
+这里面的edSignature和length要重点说一下，length是文件大小，而edSignature则是文件的签名信息，如何获取这个签名和文件大小呢？
+
+同样使用之前提到的sparkle的sign_update工具
+
+```sh
+./Downloads/Sparkle-1.23.0\ 2/bin/sign_update /Users/user/Library/Developer/Xcode/DerivedData/Update-etfquozbuzwagxdusjlobdpvaxio/Build/Products/Debug/Update.app.zip
+
+sparkle:edSignature="8jomTVaWC7p3rxgNW8xXlRK2oe4eyFQiJ9+oknCIoKrH8+sF7jy2xQ+Mx37F00WenDBuOIy2ymD3nTQuQkyOCw==" length="4945096"
+```
+
+
+
+
+
 可以设置最低的系统版本支持
 
 ```xml
