@@ -6,12 +6,13 @@
         <language>en</language>
         <item>
             <title>大量更新</title>
+            <!--
             <sparkle:releaseNotesLink>
-                <!-- http://you.com/app/2.0.html -->
-                https://www.baidu.com
+                http://you.com/app/2.0.html
             </sparkle:releaseNotesLink>
+        -->
 
-<!--        <description>
+<description>
           <![CDATA[
             <ul>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
@@ -20,7 +21,7 @@
               <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit <a href="#">pretium</a>.</li>
             </ul>
           ]]>
-        </description> -->
+        </description>
 
 
             <pubDate>Wed, 09 April 2020 19:20:11 +0000</pubDate>
