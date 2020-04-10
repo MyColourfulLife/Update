@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>更新日志</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>大量更新</title>
+            <sparkle:releaseNotesLink>
+                <!-- http://you.com/app/2.0.html -->
+                https://www.baidu.com
+            </sparkle:releaseNotesLink>
+
+<!--        <description>
+          <![CDATA[
+            <ul>
+              <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+              <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li>
+              <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li>
+              <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit <a href="#">pretium</a>.</li>
+            </ul>
+          ]]>
+        </description> -->
+
+
+            <pubDate>Wed, 09 April 2020 19:20:11 +0000</pubDate>
+            <!-- Sparkle 1.21+ uses sparkle::edSignature="ed25519" instead of sparkle::dsaSignature="deprecated DSA" -->
+            <enclosure url="http://0.0.0.0:8000/Update.app.zip" sparkle:version="2.0" length="4945096" type="application/octet-stream" sparkle:edSignature="8jomTVaWC7p3rxgNW8xXlRK2oe4eyFQiJ9+oknCIoKrH8+sF7jy2xQ+Mx37F00WenDBuOIy2ymD3nTQuQkyOCw==" />
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+        </item>
+
+    </channel>
+</rss>
