@@ -109,6 +109,6 @@ value: 用于解析更新内容的xml地址
 1. 打开main.storyboard
 2. 在资源库中添加Object对象到Application场景目录下，并修改Object的class为SUUpdater
 
-![image-20200410123002060](/Users/ekko/Library/Application Support/typora-user-images/image-20200410123002060.png)
+![image-20200410123002060](https://upload-images.jianshu.io/upload_images/2659589-bb3e39ba81479c1f.png?imageMogr2/auto-orient/strip|imageView2/2/w/1200/format/webp)
 
 3. 添加一个检查更新的菜单到主菜单，将检查更新菜单拖拽到刚才的Updater对象上(就是刚才的Object)，绑定Updater的 checkForUpdate事件，即可。
